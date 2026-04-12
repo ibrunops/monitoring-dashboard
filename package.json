@@ -1,0 +1,31 @@
+{
+  "name": "monitoring-dashboard",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Lightweight host operations dashboard with live telemetry, security posture, and service visibility.",
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently -n api,web -c blue.bold,magenta.bold \"tsx watch server/index.ts\" \"vite\"",
+    "build": "vite build && tsc -p tsconfig.server.json",
+    "start": "NODE_ENV=production node dist/server/index.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "lucide-react": "^0.511.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "recharts": "^2.15.3",
+    "systeminformation": "^5.25.11"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.0.1",
+    "@types/react": "^19.1.2",
+    "@types/react-dom": "^19.1.2",
+    "@vitejs/plugin-react-swc": "^3.8.0",
+    "concurrently": "^9.1.2",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5"
+  }
+}

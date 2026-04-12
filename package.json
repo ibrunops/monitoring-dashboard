@@ -2,7 +2,16 @@
   "name": "monitoring-dashboard",
   "private": true,
   "version": "0.1.0",
-  "description": "Lightweight host operations dashboard with live telemetry, security posture, and service visibility.",
+  "description": "Lightweight host monitoring dashboard with live telemetry, security posture, process visibility, and listener inventory.",
+  "keywords": [
+    "monitoring",
+    "dashboard",
+    "react",
+    "express",
+    "typescript",
+    "observability",
+    "systeminformation"
+  ],
   "type": "module",
   "scripts": {
     "dev": "concurrently -n api,web -c blue.bold,magenta.bold \"tsx watch server/index.ts\" \"vite\"",

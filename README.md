@@ -2,6 +2,20 @@
 
 Monitoring Dashboard is a lightweight host operations dashboard built with Express, React, TypeScript, and Recharts.
 
+## About
+
+Monitoring Dashboard helps you inspect a single host through a clean operational view of:
+- live system telemetry
+- rolling history windows
+- process activity
+- local listener exposure
+- a summarized security posture signal
+
+It is intended for operators, developers, and tinkerers who want something more informative than a toy dashboard, but far lighter than a full monitoring stack.
+
+**Suggested GitHub repo About text:**
+> Lightweight host monitoring dashboard with live telemetry, security posture, process visibility, and listener inventory.
+
 It provides a single-page view of:
 - live CPU, memory, disk, and network telemetry
 - rolling history windows (5m, 30m, 1h)
@@ -119,4 +133,4 @@ See [`DEPLOYMENT.md`](./DEPLOYMENT.md) and [`SECURITY.md`](./SECURITY.md).
 
 ## License
 
-No license file is included yet. Add one before publishing if you want to grant reuse rights explicitly.
+A license will be added once the repository owner chooses the exact terms.

@@ -133,4 +133,4 @@ See [`DEPLOYMENT.md`](./DEPLOYMENT.md) and [`SECURITY.md`](./SECURITY.md).
 
 ## License
 
-A license will be added once the repository owner chooses the exact terms.
+This project is licensed under the MIT License. See [LICENSE](./LICENSE).

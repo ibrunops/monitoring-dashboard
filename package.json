@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.1.0",
   "description": "Lightweight host monitoring dashboard with live telemetry, security posture, process visibility, and listener inventory.",
+  "license": "MIT",
   "keywords": [
     "monitoring",
     "dashboard",

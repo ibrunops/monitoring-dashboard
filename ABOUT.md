@@ -29,12 +29,6 @@ A single-host dashboard that combines:
 
 The visual style is warm and distinctive, but the product itself is a monitoring dashboard, not a coffee-themed application.
 
-## Suggested GitHub About field
-
-If you want a clean repo description in GitHub, use this:
-
-`Lightweight host monitoring dashboard with live telemetry, security posture, process visibility, and listener inventory.`
-
 ## Suggested topics
 
 - `monitoring`

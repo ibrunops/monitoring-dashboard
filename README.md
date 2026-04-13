@@ -13,9 +13,6 @@ Monitoring Dashboard helps you inspect a single host through a clean operational
 
 It is intended for operators, developers, and tinkerers who want something more informative than a toy dashboard, but far lighter than a full monitoring stack.
 
-**Suggested GitHub repo About text:**
-> Lightweight host monitoring dashboard with live telemetry, security posture, process visibility, and listener inventory.
-
 It provides a single-page view of:
 - live CPU, memory, disk, and network telemetry
 - rolling history windows (5m, 30m, 1h)

@@ -3,68 +3,73 @@
   <rect x="36" y="36" width="1368" height="848" rx="28" fill="url(#bg)" stroke="#3A2A23"/>
 
   <text x="72" y="96" fill="#D7AC72" font-size="16" font-family="Inter, Arial, sans-serif" letter-spacing="2">OPERATIONS</text>
-  <text x="72" y="146" fill="#F8ECD6" font-size="40" font-weight="700" font-family="Inter, Arial, sans-serif">Context panels for system, security, and services</text>
-  <text x="72" y="186" fill="#E5D3B7" font-size="20" font-family="Inter, Arial, sans-serif">A balanced summary of host details, listener posture, and service health without overwhelming the operator.</text>
+  <text x="72" y="146" fill="#F8ECD6" font-size="38" font-weight="700" font-family="Inter, Arial, sans-serif">Context panels for system,</text>
+  <text x="72" y="192" fill="#F8ECD6" font-size="38" font-weight="700" font-family="Inter, Arial, sans-serif">security, and services</text>
+  <text x="72" y="234" fill="#E5D3B7" font-size="20" font-family="Inter, Arial, sans-serif">A balanced summary of host details,</text>
+  <text x="72" y="266" fill="#E5D3B7" font-size="20" font-family="Inter, Arial, sans-serif">listener posture, and service health</text>
+  <text x="72" y="298" fill="#E5D3B7" font-size="20" font-family="Inter, Arial, sans-serif">without overwhelming the operator.</text>
 
-  <rect x="72" y="236" width="408" height="556" rx="26" fill="#241914" stroke="#3C2B24"/>
-  <rect x="516" y="236" width="408" height="556" rx="26" fill="#241914" stroke="#3C2B24"/>
-  <rect x="960" y="236" width="408" height="556" rx="26" fill="#241914" stroke="#3C2B24"/>
+  <rect x="72" y="334" width="408" height="458" rx="26" fill="#241914" stroke="#3C2B24"/>
+  <rect x="516" y="334" width="408" height="458" rx="26" fill="#241914" stroke="#3C2B24"/>
+  <rect x="960" y="334" width="408" height="458" rx="26" fill="#241914" stroke="#3C2B24"/>
 
-  <text x="108" y="286" fill="#D7AC72" font-size="15" font-family="Inter, Arial, sans-serif" letter-spacing="1.5">HOST</text>
-  <text x="108" y="324" fill="#F8ECD6" font-size="30" font-weight="700" font-family="Inter, Arial, sans-serif">System context</text>
+  <text x="108" y="384" fill="#D7AC72" font-size="15" font-family="Inter, Arial, sans-serif" letter-spacing="1.5">HOST</text>
+  <text x="108" y="422" fill="#F8ECD6" font-size="30" font-weight="700" font-family="Inter, Arial, sans-serif">System context</text>
   <g fill="#E5D3B7" font-size="18" font-family="Inter, Arial, sans-serif">
-    <text x="108" y="388">Ubuntu 24.04 LTS</text>
-    <text x="108" y="442">Kernel 6.8.0-generic</text>
-    <text x="108" y="496">AMD EPYC Virtual CPU · 4 cores</text>
-    <text x="108" y="550">Uptime 5d 0h 2m</text>
-    <text x="108" y="604">Node.js v24.14.1</text>
-    <text x="108" y="658">Temperature 54.2 °C</text>
+    <text x="108" y="468">Ubuntu 24.04 LTS</text>
+    <text x="108" y="522">Kernel 6.8.0-generic</text>
+    <text x="108" y="576">AMD EPYC Virtual CPU · 4 cores</text>
+    <text x="108" y="630">Uptime 5d 0h 2m</text>
+    <text x="108" y="684">Node.js v24.14.1</text>
+    <text x="108" y="738">Temperature 54.2 °C</text>
   </g>
   <g fill="#AC9A82" font-size="14" font-family="Inter, Arial, sans-serif">
-    <text x="108" y="364">SYSTEM</text>
-    <text x="108" y="418">KERNEL</text>
-    <text x="108" y="472">CPU</text>
-    <text x="108" y="526">UPTIME</text>
-    <text x="108" y="580">RUNTIME</text>
-    <text x="108" y="634">THERMAL</text>
+    <text x="108" y="444">SYSTEM</text>
+    <text x="108" y="498">KERNEL</text>
+    <text x="108" y="552">CPU</text>
+    <text x="108" y="606">UPTIME</text>
+    <text x="108" y="660">RUNTIME</text>
+    <text x="108" y="714">THERMAL</text>
   </g>
 
-  <text x="552" y="286" fill="#D7AC72" font-size="15" font-family="Inter, Arial, sans-serif" letter-spacing="1.5">SECURITY</text>
-  <text x="552" y="324" fill="#F8ECD6" font-size="30" font-weight="700" font-family="Inter, Arial, sans-serif">Posture and exposure</text>
-  <rect x="552" y="356" width="336" height="108" rx="22" fill="#1F4D31"/>
-  <text x="584" y="404" fill="#F8ECD6" font-size="44" font-weight="700" font-family="Inter, Arial, sans-serif">82</text>
-  <text x="664" y="394" fill="#F8ECD6" font-size="24" font-weight="700" font-family="Inter, Arial, sans-serif">Strong posture</text>
-  <text x="664" y="426" fill="#D5F5DF" font-size="17" font-family="Inter, Arial, sans-serif">Low exposure with intentionally published services.</text>
+  <text x="552" y="384" fill="#D7AC72" font-size="15" font-family="Inter, Arial, sans-serif" letter-spacing="1.5">SECURITY</text>
+  <text x="552" y="422" fill="#F8ECD6" font-size="30" font-weight="700" font-family="Inter, Arial, sans-serif">Posture and exposure</text>
+  <rect x="552" y="454" width="336" height="118" rx="22" fill="#1F4D31"/>
+  <text x="584" y="504" fill="#F8ECD6" font-size="44" font-weight="700" font-family="Inter, Arial, sans-serif">82</text>
+  <text x="664" y="494" fill="#F8ECD6" font-size="24" font-weight="700" font-family="Inter, Arial, sans-serif">Strong posture</text>
+  <text x="664" y="524" fill="#D5F5DF" font-size="16" font-family="Inter, Arial, sans-serif">Low exposure with intended</text>
+  <text x="664" y="550" fill="#D5F5DF" font-size="16" font-family="Inter, Arial, sans-serif">published services only.</text>
 
-  <rect x="552" y="496" width="132" height="34" rx="17" fill="#2D241E"/>
-  <rect x="696" y="496" width="126" height="34" rx="17" fill="#2D241E"/>
-  <rect x="552" y="542" width="156" height="34" rx="17" fill="#2D241E"/>
-  <text x="580" y="518" fill="#E5D3B7" font-size="15" font-family="Inter, Arial, sans-serif">Firewall: active</text>
-  <text x="724" y="518" fill="#E5D3B7" font-size="15" font-family="Inter, Arial, sans-serif">SSH: private</text>
-  <text x="580" y="564" fill="#E5D3B7" font-size="15" font-family="Inter, Arial, sans-serif">Network listeners: 2</text>
+  <rect x="552" y="604" width="132" height="34" rx="17" fill="#2D241E"/>
+  <rect x="696" y="604" width="126" height="34" rx="17" fill="#2D241E"/>
+  <rect x="552" y="650" width="156" height="34" rx="17" fill="#2D241E"/>
+  <text x="580" y="626" fill="#E5D3B7" font-size="15" font-family="Inter, Arial, sans-serif">Firewall: active</text>
+  <text x="724" y="626" fill="#E5D3B7" font-size="15" font-family="Inter, Arial, sans-serif">SSH: private</text>
+  <text x="580" y="672" fill="#E5D3B7" font-size="15" font-family="Inter, Arial, sans-serif">Network listeners: 2</text>
 
-  <rect x="552" y="610" width="336" height="132" rx="20" fill="#1A1411" stroke="#3B2C25"/>
-  <text x="580" y="646" fill="#F8ECD6" font-size="20" font-weight="700" font-family="Inter, Arial, sans-serif">Reverse proxy · TCP 443</text>
-  <text x="580" y="676" fill="#E5D3B7" font-size="17" font-family="Inter, Arial, sans-serif">Published intentionally through the proxy layer.</text>
-  <text x="580" y="714" fill="#CDBCA3" font-size="15" font-family="Inter, Arial, sans-serif">Secondary listener: SSH restricted to private network.</text>
+  <rect x="552" y="704" width="336" height="74" rx="20" fill="#1A1411" stroke="#3B2C25"/>
+  <text x="580" y="742" fill="#F8ECD6" font-size="20" font-weight="700" font-family="Inter, Arial, sans-serif">Reverse proxy · TCP 443</text>
+  <text x="580" y="758" fill="#E5D3B7" font-size="15" font-family="Inter, Arial, sans-serif">Published intentionally</text>
+  <text x="580" y="778" fill="#E5D3B7" font-size="15" font-family="Inter, Arial, sans-serif">through the proxy layer.</text>
 
-  <text x="996" y="286" fill="#D7AC72" font-size="15" font-family="Inter, Arial, sans-serif" letter-spacing="1.5">SERVICES</text>
-  <text x="996" y="324" fill="#F8ECD6" font-size="30" font-weight="700" font-family="Inter, Arial, sans-serif">Runtime and top activity</text>
-  <circle cx="1008" cy="382" r="8" fill="#22C55E"/>
-  <text x="1032" y="388" fill="#F8ECD6" font-size="24" font-weight="700" font-family="Inter, Arial, sans-serif">Gateway active</text>
-  <text x="1032" y="420" fill="#E5D3B7" font-size="17" font-family="Inter, Arial, sans-serif">OpenClaw CLI and gateway both detected.</text>
+  <text x="996" y="384" fill="#D7AC72" font-size="15" font-family="Inter, Arial, sans-serif" letter-spacing="1.5">SERVICES</text>
+  <text x="996" y="422" fill="#F8ECD6" font-size="30" font-weight="700" font-family="Inter, Arial, sans-serif">Runtime and top activity</text>
+  <circle cx="1008" cy="484" r="8" fill="#22C55E"/>
+  <text x="1032" y="490" fill="#F8ECD6" font-size="24" font-weight="700" font-family="Inter, Arial, sans-serif">Gateway active</text>
+  <text x="1032" y="520" fill="#E5D3B7" font-size="17" font-family="Inter, Arial, sans-serif">OpenClaw CLI and gateway</text>
+  <text x="1032" y="548" fill="#E5D3B7" font-size="17" font-family="Inter, Arial, sans-serif">both detected.</text>
 
-  <rect x="996" y="462" width="140" height="34" rx="17" fill="#2D241E"/>
-  <rect x="1148" y="462" width="152" height="34" rx="17" fill="#2D241E"/>
-  <text x="1026" y="484" fill="#E5D3B7" font-size="15" font-family="Inter, Arial, sans-serif">Installed: yes</text>
-  <text x="1176" y="484" fill="#E5D3B7" font-size="15" font-family="Inter, Arial, sans-serif">Version: 2026.4.5</text>
+  <rect x="996" y="584" width="140" height="34" rx="17" fill="#2D241E"/>
+  <rect x="1148" y="584" width="152" height="34" rx="17" fill="#2D241E"/>
+  <text x="1026" y="606" fill="#E5D3B7" font-size="15" font-family="Inter, Arial, sans-serif">Installed: yes</text>
+  <text x="1176" y="606" fill="#E5D3B7" font-size="15" font-family="Inter, Arial, sans-serif">Version: 2026.4.5</text>
 
-  <rect x="996" y="526" width="336" height="182" rx="20" fill="#1A1411" stroke="#3B2C25"/>
-  <text x="1024" y="564" fill="#F8ECD6" font-size="20" font-weight="700" font-family="Inter, Arial, sans-serif">Top processes</text>
+  <rect x="996" y="644" width="336" height="130" rx="20" fill="#1A1411" stroke="#3B2C25"/>
+  <text x="1024" y="680" fill="#F8ECD6" font-size="20" font-weight="700" font-family="Inter, Arial, sans-serif">Top processes</text>
   <g fill="#E5D3B7" font-size="17" font-family="Inter, Arial, sans-serif">
-    <text x="1024" y="608">node — 31.4% CPU · 412.8 MB</text>
-    <text x="1024" y="646">postgres — 12.6% CPU · 276.4 MB</text>
-    <text x="1024" y="684">caddy — 4.8% CPU · 88.5 MB</text>
+    <text x="1024" y="718">node — 31.4% CPU · 412.8 MB</text>
+    <text x="1024" y="746">postgres — 12.6% CPU · 276.4 MB</text>
+    <text x="1024" y="774">caddy — 4.8% CPU · 88.5 MB</text>
   </g>
 
   <defs>

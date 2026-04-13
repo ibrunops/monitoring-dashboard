@@ -1,0 +1,82 @@
+<svg width="1440" height="980" viewBox="0 0 1440 980" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1440" height="980" fill="#120C0A"/>
+  <rect x="36" y="36" width="1368" height="908" rx="28" fill="url(#bg)" stroke="#3A2A23"/>
+
+  <rect x="72" y="72" width="1296" height="248" rx="28" fill="#241914" stroke="#4A362D"/>
+  <text x="110" y="120" fill="#D7AC72" font-size="16" font-family="Inter, Arial, sans-serif" letter-spacing="2">MONITORING DASHBOARD</text>
+  <text x="110" y="172" fill="#F8ECD6" font-size="44" font-weight="700" font-family="Inter, Arial, sans-serif">Host visibility with clean operational context</text>
+  <text x="110" y="214" fill="#E5D3B7" font-size="22" font-family="Inter, Arial, sans-serif">Live telemetry, listener exposure, process activity, and a summarized security posture.</text>
+
+  <rect x="1088" y="102" width="228" height="44" rx="22" fill="#1F4D31"/>
+  <text x="1118" y="131" fill="#C6F6D5" font-size="18" font-family="Inter, Arial, sans-serif">Posture 82/100 · Strong</text>
+
+  <rect x="1088" y="160" width="228" height="40" rx="20" fill="#214F38" opacity="0.85"/>
+  <text x="1138" y="186" fill="#C8F5D3" font-size="16" font-family="Inter, Arial, sans-serif">Live updates active</text>
+
+  <rect x="1088" y="216" width="228" height="74" rx="18" fill="#1A1411" stroke="#3B2C25"/>
+  <text x="1114" y="244" fill="#AC9A82" font-size="14" font-family="Inter, Arial, sans-serif">Host</text>
+  <text x="1238" y="244" fill="#F8ECD6" font-size="14" font-family="Inter, Arial, sans-serif">demo-node-01</text>
+  <text x="1114" y="267" fill="#AC9A82" font-size="14" font-family="Inter, Arial, sans-serif">Last sample</text>
+  <text x="1206" y="267" fill="#F8ECD6" font-size="14" font-family="Inter, Arial, sans-serif">00:00 UTC</text>
+
+  <rect x="72" y="344" width="412" height="110" rx="22" fill="#241914" stroke="#3C2B24"/>
+  <rect x="514" y="344" width="412" height="110" rx="22" fill="#241914" stroke="#3C2B24"/>
+  <rect x="956" y="344" width="412" height="110" rx="22" fill="#241914" stroke="#3C2B24"/>
+  <text x="102" y="384" fill="#F8ECD6" font-size="22" font-weight="700" font-family="Inter, Arial, sans-serif">No critical alerts</text>
+  <text x="102" y="414" fill="#E5D3B7" font-size="18" font-family="Inter, Arial, sans-serif">Current signals show a stable host and contained exposure.</text>
+  <text x="544" y="384" fill="#F8ECD6" font-size="22" font-weight="700" font-family="Inter, Arial, sans-serif">Low listener risk</text>
+  <text x="544" y="414" fill="#E5D3B7" font-size="18" font-family="Inter, Arial, sans-serif">Only intended network services appear outside loopback.</text>
+  <text x="986" y="384" fill="#F8ECD6" font-size="22" font-weight="700" font-family="Inter, Arial, sans-serif">Gateway online</text>
+  <text x="986" y="414" fill="#E5D3B7" font-size="18" font-family="Inter, Arial, sans-serif">Service visibility and dashboard feed are both operational.</text>
+
+  <g>
+    <rect x="72" y="484" width="304" height="190" rx="24" fill="#241914" stroke="#3C2B24"/>
+    <text x="102" y="528" fill="#CFB189" font-size="16" font-family="Inter, Arial, sans-serif">CPU</text>
+    <text x="102" y="588" fill="#F8ECD6" font-size="52" font-weight="700" font-family="Inter, Arial, sans-serif">31.4%</text>
+    <text x="102" y="624" fill="#E5D3B7" font-size="18" font-family="Inter, Arial, sans-serif">Load 0.72 · 0.68 · 0.61</text>
+    <rect x="102" y="644" width="244" height="10" rx="5" fill="#3A2B24"/>
+    <rect x="102" y="644" width="108" height="10" rx="5" fill="#4ADE80"/>
+    <text x="102" y="692" fill="#CDBCA3" font-size="16" font-family="Inter, Arial, sans-serif">Temperature 54.2 °C</text>
+  </g>
+
+  <g>
+    <rect x="402" y="484" width="304" height="190" rx="24" fill="#241914" stroke="#3C2B24"/>
+    <text x="432" y="528" fill="#CFB189" font-size="16" font-family="Inter, Arial, sans-serif">Memory</text>
+    <text x="432" y="588" fill="#F8ECD6" font-size="52" font-weight="700" font-family="Inter, Arial, sans-serif">48.7%</text>
+    <text x="432" y="624" fill="#E5D3B7" font-size="18" font-family="Inter, Arial, sans-serif">7.8 / 16.0 GB active</text>
+    <rect x="432" y="644" width="244" height="10" rx="5" fill="#3A2B24"/>
+    <rect x="432" y="644" width="132" height="10" rx="5" fill="#4ADE80"/>
+    <text x="432" y="692" fill="#CDBCA3" font-size="16" font-family="Inter, Arial, sans-serif">8.2 GB remaining</text>
+  </g>
+
+  <g>
+    <rect x="732" y="484" width="304" height="190" rx="24" fill="#241914" stroke="#3C2B24"/>
+    <text x="762" y="528" fill="#CFB189" font-size="16" font-family="Inter, Arial, sans-serif">Disk</text>
+    <text x="762" y="588" fill="#F8ECD6" font-size="52" font-weight="700" font-family="Inter, Arial, sans-serif">62.1%</text>
+    <text x="762" y="624" fill="#E5D3B7" font-size="18" font-family="Inter, Arial, sans-serif">248.4 / 400 GB used</text>
+    <rect x="762" y="644" width="244" height="10" rx="5" fill="#3A2B24"/>
+    <rect x="762" y="644" width="166" height="10" rx="5" fill="#FBBF24"/>
+    <text x="762" y="692" fill="#CDBCA3" font-size="16" font-family="Inter, Arial, sans-serif">151.6 GB free</text>
+  </g>
+
+  <g>
+    <rect x="1062" y="484" width="306" height="190" rx="24" fill="#241914" stroke="#3C2B24"/>
+    <text x="1092" y="528" fill="#CFB189" font-size="16" font-family="Inter, Arial, sans-serif">Network</text>
+    <text x="1092" y="588" fill="#F8ECD6" font-size="44" font-weight="700" font-family="Inter, Arial, sans-serif">↓ 1.82 MB/s</text>
+    <text x="1092" y="624" fill="#E5D3B7" font-size="18" font-family="Inter, Arial, sans-serif">↑ 420.0 KB/s</text>
+    <rect x="1092" y="644" width="246" height="10" rx="5" fill="#3A2B24"/>
+    <rect x="1092" y="644" width="184" height="10" rx="5" fill="#60A5FA"/>
+    <text x="1092" y="692" fill="#CDBCA3" font-size="16" font-family="Inter, Arial, sans-serif">Window peak 2.41 MB/s</text>
+  </g>
+
+  <text x="72" y="744" fill="#D7AC72" font-size="16" font-family="Inter, Arial, sans-serif" letter-spacing="2">OVERVIEW</text>
+  <text x="72" y="786" fill="#F8ECD6" font-size="34" font-weight="700" font-family="Inter, Arial, sans-serif">A quick operational read in one glance</text>
+  <text x="72" y="824" fill="#E5D3B7" font-size="20" font-family="Inter, Arial, sans-serif">Hero summary, active signals, and core metrics in the warm dashboard visual style.</text>
+
+  <defs>
+    <linearGradient id="bg" x1="720" y1="36" x2="720" y2="944" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1A120E"/>
+      <stop offset="1" stop-color="#130D0B"/>
+    </linearGradient>
+  </defs>
+</svg>

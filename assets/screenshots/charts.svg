@@ -1,0 +1,58 @@
+<svg width="1440" height="940" viewBox="0 0 1440 940" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1440" height="940" fill="#120C0A"/>
+  <rect x="36" y="36" width="1368" height="868" rx="28" fill="url(#bg)" stroke="#3A2A23"/>
+
+  <text x="72" y="96" fill="#D7AC72" font-size="16" font-family="Inter, Arial, sans-serif" letter-spacing="2">PERFORMANCE</text>
+  <text x="72" y="146" fill="#F8ECD6" font-size="40" font-weight="700" font-family="Inter, Arial, sans-serif">Performance and traffic views with rolling history</text>
+  <text x="72" y="186" fill="#E5D3B7" font-size="20" font-family="Inter, Arial, sans-serif">Time windows, threshold lines, and clear chart panels for CPU, memory, and network movement.</text>
+
+  <rect x="72" y="236" width="620" height="586" rx="26" fill="#241914" stroke="#3C2B24"/>
+  <rect x="748" y="236" width="620" height="586" rx="26" fill="#241914" stroke="#3C2B24"/>
+
+  <text x="108" y="286" fill="#D7AC72" font-size="15" font-family="Inter, Arial, sans-serif" letter-spacing="1.5">CPU + MEMORY</text>
+  <text x="108" y="324" fill="#F8ECD6" font-size="30" font-weight="700" font-family="Inter, Arial, sans-serif">Load trends with readable thresholds</text>
+  <text x="108" y="358" fill="#E5D3B7" font-size="18" font-family="Inter, Arial, sans-serif">CPU area plus memory line, with 70% and 85% guidance bands.</text>
+
+  <line x1="122" y1="690" x2="640" y2="690" stroke="#4A3A31" stroke-width="2"/>
+  <line x1="122" y1="620" x2="640" y2="620" stroke="#5A4335" stroke-width="1.5" stroke-dasharray="7 7"/>
+  <line x1="122" y1="540" x2="640" y2="540" stroke="#6A4738" stroke-width="1.5" stroke-dasharray="7 7"/>
+  <path d="M122 666 C170 618, 226 572, 282 590 C336 608, 390 484, 444 504 C494 522, 546 446, 640 470" stroke="#F59E0B" stroke-width="4" fill="none"/>
+  <path d="M122 602 C178 604, 228 592, 282 580 C334 570, 390 560, 444 550 C494 542, 552 530, 640 520" stroke="#F5E6C8" stroke-width="4" fill="none"/>
+  <path d="M122 666 C170 618, 226 572, 282 590 C336 608, 390 484, 444 504 C494 522, 546 446, 640 470 L640 690 L122 690 Z" fill="url(#cpuFill)"/>
+
+  <text x="122" y="736" fill="#CDBCA3" font-size="16" font-family="Inter, Arial, sans-serif">00:00</text>
+  <text x="286" y="736" fill="#CDBCA3" font-size="16" font-family="Inter, Arial, sans-serif">00:08</text>
+  <text x="448" y="736" fill="#CDBCA3" font-size="16" font-family="Inter, Arial, sans-serif">00:16</text>
+  <text x="602" y="736" fill="#CDBCA3" font-size="16" font-family="Inter, Arial, sans-serif">00:24</text>
+
+  <rect x="108" y="766" width="168" height="34" rx="17" fill="#2D241E"/>
+  <rect x="292" y="766" width="154" height="34" rx="17" fill="#2D241E"/>
+  <text x="138" y="788" fill="#E5D3B7" font-size="15" font-family="Inter, Arial, sans-serif">Observe at 70%</text>
+  <text x="322" y="788" fill="#E5D3B7" font-size="15" font-family="Inter, Arial, sans-serif">Hot at 85%</text>
+
+  <text x="784" y="286" fill="#D7AC72" font-size="15" font-family="Inter, Arial, sans-serif" letter-spacing="1.5">NETWORK</text>
+  <text x="784" y="324" fill="#F8ECD6" font-size="30" font-weight="700" font-family="Inter, Arial, sans-serif">Traffic direction and peak visibility</text>
+  <text x="784" y="358" fill="#E5D3B7" font-size="18" font-family="Inter, Arial, sans-serif">Download and upload activity with enough separation to spot spikes and drift.</text>
+
+  <line x1="798" y1="690" x2="1316" y2="690" stroke="#4A3A31" stroke-width="2"/>
+  <line x1="798" y1="610" x2="1316" y2="610" stroke="#4A3A31" stroke-width="1.5" stroke-dasharray="7 7"/>
+  <line x1="798" y1="530" x2="1316" y2="530" stroke="#4A3A31" stroke-width="1.5" stroke-dasharray="7 7"/>
+  <path d="M798 656 C860 634, 910 586, 964 610 C1018 632, 1064 542, 1120 566 C1178 592, 1228 514, 1316 538" stroke="#7DD3FC" stroke-width="4" fill="none"/>
+  <path d="M798 676 C860 668, 910 652, 964 660 C1018 668, 1064 626, 1120 638 C1178 650, 1228 612, 1316 624" stroke="#C084FC" stroke-width="4" fill="none"/>
+
+  <rect x="784" y="766" width="204" height="34" rx="17" fill="#2D241E"/>
+  <rect x="1004" y="766" width="188" height="34" rx="17" fill="#2D241E"/>
+  <text x="816" y="788" fill="#E5D3B7" font-size="15" font-family="Inter, Arial, sans-serif">Peak download: 2.41 MB/s</text>
+  <text x="1036" y="788" fill="#E5D3B7" font-size="15" font-family="Inter, Arial, sans-serif">Peak upload: 540 KB/s</text>
+
+  <defs>
+    <linearGradient id="bg" x1="720" y1="36" x2="720" y2="904" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1A120E"/>
+      <stop offset="1" stop-color="#130D0B"/>
+    </linearGradient>
+    <linearGradient id="cpuFill" x1="381" y1="470" x2="381" y2="690" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F59E0B" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#F59E0B" stop-opacity="0.03"/>
+    </linearGradient>
+  </defs>
+</svg>

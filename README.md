@@ -25,6 +25,22 @@ It provides a single-page view of:
 
 Most small monitoring dashboards are either too shallow or too infrastructure-heavy for a single host. Monitoring Dashboard aims for the middle ground: easy to run, visually clear, and opinionated enough to surface what deserves attention first.
 
+## Screenshots
+
+Example visuals below use sanitized demo data.
+
+### Overview
+
+![Monitoring Dashboard overview](./assets/screenshots/overview.svg)
+
+### Performance and traffic
+
+![Monitoring Dashboard charts](./assets/screenshots/charts.svg)
+
+### Operations summary
+
+![Monitoring Dashboard summary panels](./assets/screenshots/summary.svg)
+
 ## Stack
 
 - **Backend**: Express + TypeScript

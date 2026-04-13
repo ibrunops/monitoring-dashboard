@@ -27,7 +27,7 @@ A single-host dashboard that combines:
 
 ## Positioning
 
-The visual style is warm and distinctive, but the product itself is a monitoring dashboard, not a coffee-themed application.
+Monitoring Dashboard is designed to feel approachable without sacrificing operational usefulness. Its visual style is warm and distinctive, while the product remains focused on host visibility, system telemetry, and fast situational awareness.
 
 ## Suggested topics
 
